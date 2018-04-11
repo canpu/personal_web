@@ -1,0 +1,52 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+.dropdown-menu-option:link {
+  color: #fdfdfd;
+}
+
+#main-header {
+  background: #333;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  height: 7%;
+  min-height: 45px;
+  z-index: 100;
+}
+
+#main-header,
+ul {
+  align-items: center;
+}
+
+#nav-bar {
+  width: 100%;
+}
+
+#nav-bar h1 {
+  flex: 4;
+}
+
+#nav-bar ul {
+  flex: 6;
+}
+
+a:hover,
+button:hover{
+  cursor: pointer;
+}
+
+#main-header, #nav-bar, #nav-bar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#navigation-list {
+  margin-left: auto;
+}

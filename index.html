@@ -2,26 +2,64 @@
 <html>
   <head>
     <title>Can Pu</title>
+    <meta name="viewport">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/large-viewport-style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Education</li>
-          <li>Research</li>
-          <li>Code</li>
-          <li>Gallery</li>
-          <li>Contact</li>
+    <header id="main-header">
+      <nav id="nav-bar" class="fixed-navigation flex-container"><!--The navigation bar should always stay in the viewport-->
+        <h1>Can Pu</h1>
+        <ul id="navigation-list" class="flex-container">
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">Home</a></li>
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">About</a></li>
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">Research</a></li>
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">Code</a></li>
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">Gallery</a></li>
+          <li class="dropdown-menu-option dropdown-menu-root"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-      </section>
+      <div class="flex-container">
+        <section>
+          <h1>About Me</h1>
+          <div>
+            <figure>
+              <img>
+            </figure>
+            <p>I am graduating with a master of mathematics from Texas A&amp;M University this August, and am trying to find a professor to advise me for my Ph.D. research.</p>
+            <p>Before joining the department of mathematics, I obtained a bachaler's degree of nuclear engineering, also from Texas A&amp;M.</p>
+          </div>
+          <button>Learn more</button>
+        </section>
+        <section>
+          <h1>Research</h1>
+          <div>
+            <figure>
+              <img>
+            </figure>
+            <p>Pursuing one's own life is not easy</p>
+            <p>This page is so far not finished, but I will try to update some of my research to it in the future.</p>
+          </div>
+          <button>Learn more</button>
+        </section>
+        <section>
+          <h1>Code</h1>
+          <p>Many of codes I have written are toy codes, but I will try to think as a software engineer and try to improve their quality in the future.</p>
+          <button>Learn more</button>
+        </section>
+        <section>
+          <h1>Gallery</h1>
+          <p>There are some sights I want to share with everyone.</p>
+          <button>Learn more</button>
+        </section>
+      </div>
+      <button id="navigation-totop" class="fixed-navigation" href="#top" title="Go to top">Top</button>
     </main>
-    <footer>
+    <footer id="main-footer">
+      Can Pu, 2018
     </footer>
   </body>
 </html>
